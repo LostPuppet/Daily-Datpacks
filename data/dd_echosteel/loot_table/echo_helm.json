@@ -11,7 +11,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Echosteel Helm",
+                  "text": "echosteel Helm",
                   "color": "#0d0b7f",
                   "italic": false
                 }
@@ -45,7 +45,7 @@
                     }
                   ],
                   "minecraft:custom_data": {
-                    "DD": "Echosteel"
+                    "DD": "echosteel"
                   },
                   "minecraft:equippable": {
                     "slot": "head",
@@ -55,7 +55,7 @@
                     "asset_id": "dd_echosteel:echosteel"
                   },
                   "minecraft:max_damage": 363,
-                "minecraft:item_model": "dd_sculksteel:helmet"
+                "minecraft:item_model": "dd_echosteel:helmet"
                 }
               }
             ]

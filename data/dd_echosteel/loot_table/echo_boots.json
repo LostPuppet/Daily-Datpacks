@@ -11,7 +11,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Echosteel Boots",
+                  "text": "echosteel Boots",
                   "color": "#0d0b7f",
                   "italic": false
                 }
@@ -45,7 +45,7 @@
                     }
                   ],
                   "minecraft:custom_data": {
-                    "DD": "Echosteel"
+                    "DD": "echosteel"
                   },
                   "minecraft:equippable": {
                     "slot": "feet",
@@ -55,7 +55,7 @@
                     "asset_id": "dd_echosteel:echosteel"
                   },
                   "minecraft:max_damage": 429,
-                "minecraft:item_model": "dd_sculksteel:boots"
+                "minecraft:item_model": "dd_echosteel:boots"
                 }
               }
             ]

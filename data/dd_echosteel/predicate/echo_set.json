@@ -6,28 +6,28 @@
         "head": {
           "components": {
             "minecraft:custom_data": {
-              "DD": "Echosteel"
+              "DD": "echosteel"
             }
           }
         },
         "chest": {
           "components": {
             "minecraft:custom_data": {
-              "DD": "Echosteel"
+              "DD": "echosteel"
             }
           }
         },
         "legs": {
           "components": {
             "minecraft:custom_data": {
-              "DD": "Echosteel"
+              "DD": "echosteel"
             }
           }
         },
         "feet": {
           "components": {
             "minecraft:custom_data": {
-              "DD": "Echosteel"
+              "DD": "echosteel"
             }
           }
         }

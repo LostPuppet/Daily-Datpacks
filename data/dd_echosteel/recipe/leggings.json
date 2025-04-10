@@ -29,7 +29,7 @@
           }
         ],
         "minecraft:custom_data": {
-          "DD": "Echosteel"
+          "DD": "echosteel"
         },
         "minecraft:equippable": {
           "slot": "legs",
@@ -42,12 +42,12 @@
           "Shift to enter sculk form"
         ],
         "minecraft:item_name": {
-          "text": "Sculksteel Leggings",
+          "text": "echosteel Leggings",
           "type": "text",
           "color": "#0d0b7f"
         },
         "minecraft:max_damage": 495,
-                "minecraft:item_model": "dd_sculksteel:leggings"
+                "minecraft:item_model": "dd_echosteel:leggings"
       }
     }
   }

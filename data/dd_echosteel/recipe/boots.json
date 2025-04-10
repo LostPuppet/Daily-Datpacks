@@ -28,7 +28,7 @@
           }
         ],
         "minecraft:custom_data": {
-          "DD": "Echosteel"
+          "DD": "echosteel"
         },
         "minecraft:equippable": {
           "slot": "feet",
@@ -41,12 +41,12 @@
           "Shift to enter sculk form"
         ],
         "minecraft:item_name": {
-          "text": "Sculksteel Boots",
+          "text": "echosteel Boots",
           "type": "text",
           "color": "#0d0b7f"
         },
         "minecraft:max_damage": 429,
-                "minecraft:item_model": "dd_sculksteel:boots"
+                "minecraft:item_model": "dd_echosteel:boots"
       }
     }
   }
