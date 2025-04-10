@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "x x",
+      "xsx",
+      "xxx"
+    ],
+    "key": {
+      "x": "minecraft:diamond",
+      "s": "minecraft:sculk_catalyst"
+    },
+    "result": {
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "dd_echosteel_chest",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "dd_echosteel_chest",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "minecraft:custom_data": {
+          "DD": "Echosteel"
+        },
+        "minecraft:equippable": {
+          "slot": "chest",
+          "equip_sound": {
+            "sound_id": "minecraft:block.sculk.place"
+          },
+          "asset_id": "dd_echosteel:echosteel"
+        },
+        "minecraft:lore": [
+          "Shift to enter sculk form"
+        ],
+        "minecraft:item_name": {
+          "text": "Sculksteel Chestplate",
+          "type": "text",
+          "color": "#0d0b7f"
+        },
+        "minecraft:max_damage": 528
+      }
+    }
+  }

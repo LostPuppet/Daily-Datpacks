@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:echo_shard"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "dd_echosteel:boots",
+        "dd_echosteel:chestplate",
+        "dd_echosteel:helm",
+        "dd_echosteel:leggings"
+      ]
+    }
+  }

@@ -1,0 +1,3 @@
+execute unless entity @s[tag=dd_echosteel_sculkform] if predicate dd_echosteel:echo_set if predicate dd_global:sneaking run function dd_echosteel:echosteel/player_modify
+execute if entity @s[tag=dd_echosteel_sculkform] unless predicate dd_global:sneaking run function dd_echosteel:echosteel/player_reset
+execute if entity @s[tag=dd_echosteel_sculkform] run function dd_echosteel:echosteel/sculk_active

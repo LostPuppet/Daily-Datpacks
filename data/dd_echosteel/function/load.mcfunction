@@ -1,0 +1,1 @@
+scoreboard objectives add dd_echosteel_fade dummy

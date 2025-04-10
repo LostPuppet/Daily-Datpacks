@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Echosteel Leggings",
+                  "color": "#0d0b7f",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Hold shift to enter echo form"
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "type": "minecraft:armor",
+                      "id": "dd_echosteel_legs",
+                      "amount": 6,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "type": "minecraft:armor_toughness",
+                      "id": "dd_echosteel_legs",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ],
+                  "minecraft:custom_data": {
+                    "DD": "Echosteel"
+                  },
+                  "minecraft:equippable": {
+                    "slot": "legs",
+                    "equip_sound": {
+                      "sound_id": "minecraft:block.sculk.place"
+                    },
+                    "asset_id": "dd_echosteel:echosteel"
+                  },
+                  "minecraft:max_damage": 495
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

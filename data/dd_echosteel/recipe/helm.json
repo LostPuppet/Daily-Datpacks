@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "xsx",
+      "x x"
+    ],
+    "key": {
+      "x": "minecraft:diamond",
+      "s": "minecraft:echo_shard"
+    },
+    "result": {
+      "id": "minecraft:chainmail_helmet",
+      "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "dd_echosteel_head",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "dd_echosteel_head",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "minecraft:custom_data": {
+          "DD": "Echosteel"
+        },
+        "minecraft:equippable": {
+          "slot": "head",
+          "equip_sound": {
+            "sound_id": "minecraft:block.sculk.place"
+          },
+          "asset_id": "dd_echosteel:echosteel"
+        },
+        "minecraft:lore": [
+          "Shift to enter sculk form"
+        ],
+        "minecraft:item_name": {
+          "text": "Sculksteel Helmet",
+          "type": "text",
+          "color": "#0d0b7f"
+        },
+        "minecraft:max_damage": 363
+      }
+    }
+  }

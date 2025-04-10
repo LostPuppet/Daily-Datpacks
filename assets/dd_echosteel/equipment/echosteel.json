@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "dd_echosteel:echosteel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "dd_echosteel:echosteel"
+      }
+    ]
+  }
+}
