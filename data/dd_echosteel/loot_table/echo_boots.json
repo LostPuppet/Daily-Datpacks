@@ -54,7 +54,8 @@
                     },
                     "asset_id": "dd_echosteel:echosteel"
                   },
-                  "minecraft:max_damage": 429
+                  "minecraft:max_damage": 429,
+                "minecraft:item_model": "dd_sculksteel:boots"
                 }
               }
             ]

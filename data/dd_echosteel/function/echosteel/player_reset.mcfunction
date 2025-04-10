@@ -4,6 +4,7 @@ attribute @s minecraft:movement_speed base reset
 attribute @s minecraft:sneaking_speed base reset
 attribute @s minecraft:gravity base reset
 attribute @s minecraft:safe_fall_distance base reset
+attribute @s minecraft:entity_interaction_range modifier remove dd_echosteel_sculk
 attribute @s minecraft:jump_strength modifier remove dd_echosteel_sculk 
 effect clear @s minecraft:invisibility
 effect give @s jump_boost 1 4 true

@@ -54,7 +54,8 @@
                   },
                   "asset_id": "dd_echosteel:echosteel"
                 },
-                "minecraft:max_damage": 528
+                "minecraft:max_damage": 528,
+                "minecraft:item_model": "dd_sculksteel:chestplate"
               }
             }
           ]
