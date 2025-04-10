@@ -41,12 +41,12 @@
           "Shift to enter sculk form"
         ],
         "minecraft:item_name": {
-          "text": "echosteel Boots",
+          "text": "Echosteel Boots",
           "type": "text",
           "color": "#0d0b7f"
         },
         "minecraft:max_damage": 429,
-                "minecraft:item_model": "dd_echosteel:boots"
+                "minecraft:item_model": "dd_echosteel:echosteel_boots"
       }
     }
   }

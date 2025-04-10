@@ -41,12 +41,12 @@
           "Shift to enter sculk form"
         ],
         "minecraft:item_name": {
-          "text": "echosteel Helmet",
+          "text": "Echosteel Helmet",
           "type": "text",
           "color": "#0d0b7f"
         },
         "minecraft:max_damage": 363,
-                "minecraft:item_model": "dd_echosteel:helmet"
+                "minecraft:item_model": "dd_echosteel:echosteel_helmet"
       }
     }
   }
