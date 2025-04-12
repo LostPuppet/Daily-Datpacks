@@ -1,2 +1,2 @@
-execute if predicate {"condition":"minecraft:random_chance","chance":0.015} run data merge entity @s {DeathLootTable:"dd_runic:vamp_skeleton",CanPickUpLoot:0b,CustomName:"Vampiric Wither Skeleton",equipment:{mainhand:{id:"minecraft:stone_axe",count:1,components:{"minecraft:enchantments":{"dd_runic:vampirism":1}}}},drop_chances:{mainhand:0}}
+execute if predicate {"condition":"minecraft:random_chance","chance":0.015} run function dd_runic:vampirism/modify
 tag @s add dd_runic_vamp_skeleton_checked
