@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " s ",
+      "sbs",
+      " s "
+    ],
+    "key": {
+      "s": "minecraft:nether_star",
+      "b": "minecraft:book"
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "dd_runic:pulsar": 1
+        }
+      }
+    }
+  }
