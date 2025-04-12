@@ -1,0 +1,1 @@
+particle end_rod ~ ~-.5 ~ 0.1 0.1 0.1 0.1 1 force
