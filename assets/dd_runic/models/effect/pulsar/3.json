@@ -1,6 +1,0 @@
-{
-	"parent": "dd_runic:effect/pulsar/base",
-	"textures": {
-		"0": "dd_runic:effect/pulsar/3"
-	}
-}
