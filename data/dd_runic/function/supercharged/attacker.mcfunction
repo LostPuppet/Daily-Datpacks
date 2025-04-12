@@ -1,0 +1,4 @@
+tag @s add dd_runic_supercharged_attacker
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"dd_runic:supercharged","levels":1}]}}}}} run scoreboard players set .temp dd_relic_supercharged_lvl 3
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"dd_runic:supercharged","levels":2}]}}}}} run scoreboard players set .temp dd_relic_supercharged_lvl 6
+execute if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:enchantments":[{"enchantments":"dd_runic:supercharged","levels":3}]}}}}} run scoreboard players set .temp dd_relic_supercharged_lvl 9

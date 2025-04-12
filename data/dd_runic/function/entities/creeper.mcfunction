@@ -1,0 +1,1 @@
+execute if entity @s[nbt={powered:true}] run data merge entity @s {DeathLootTable:"dd_runic:charged_creeper"}

@@ -1,5 +1,6 @@
 {
     "values": [
-        "dd_echosteel:tick"
+        "dd_echosteel:tick",
+        "dd_runic:tick"
     ]
 }
