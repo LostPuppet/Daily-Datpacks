@@ -1,5 +1,8 @@
 {
     "values": [
-        "dd_echosteel:load"
+        "gu:zzz/load",
+        "dd_global:load",
+        "dd_echosteel:load",
+        "dd_runic:load"
     ]
 }

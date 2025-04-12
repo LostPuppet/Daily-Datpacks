@@ -23,7 +23,7 @@
         {
           "effect": {
             "type": "minecraft:run_function",
-            "function": "dd_echosteel:echosteel/marker_tick"
+            "function": "dd_runic:vampirism/tick"
           }
         }
       ]

@@ -1,0 +1,42 @@
+{
+  "description": {
+    "text": "Vampirism",
+    "color": "#540707"
+  },
+  "exclusive_set": "#dd_runic:runic",
+  "supported_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "dd_runic:vampirism/attacker"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "dd_runic:vampirism/victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}
