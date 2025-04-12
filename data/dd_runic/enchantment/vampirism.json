@@ -4,7 +4,7 @@
     "color": "#540707"
   },
   "exclusive_set": "#dd_runic:runic",
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
   "weight": 1,
   "max_level": 1,
   "min_cost": {

@@ -1,0 +1,1 @@
+function dd_global:5tick

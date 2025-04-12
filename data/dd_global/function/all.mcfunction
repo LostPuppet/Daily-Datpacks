@@ -1,0 +1,1 @@
+execute if entity @s[type=wither_skeleton,tag=!dd_runic_vamp_skeleton_checked] run function dd_runic:vampirism/skeleton
