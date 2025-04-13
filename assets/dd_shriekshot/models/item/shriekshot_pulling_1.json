@@ -1,0 +1,6 @@
+{
+  "parent": "dd_shriekshot:item/shriekshot",
+  "textures": {
+    "layer0": "dd_shriekshot:item/shriekshot_pulling_1"
+  }
+}
