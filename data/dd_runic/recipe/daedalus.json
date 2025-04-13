@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "dad",
+      "cbc",
+      "dad"
+    ],
+    "key": {
+      "d": "minecraft:diamond",
+      "b": "minecraft:book",
+      "a": "minecraft:bow",
+      "c": "minecraft:crossbow"
+      
+      
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "dd_runic:daedalus": 1
+        }
+      }
+    }
+  }

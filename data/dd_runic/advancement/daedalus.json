@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bow",
+                "minecraft:crossbow"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "dd_runic:daedalus"
+      ]
+    }
+  }

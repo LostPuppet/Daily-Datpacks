@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " d ",
+      "dbd",
+      " d "
+    ],
+    "key": {
+      "d": "minecraft:dragon_breath",
+      "b": "minecraft:book"
+    },
+    "result": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:stored_enchantments": {
+          "dd_runic:miasma": 1
+        }
+      }
+    }
+  }

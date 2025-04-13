@@ -1,2 +1,2 @@
-$data merge entity @s {Small:1b,Marker:1b,Invisible:1b,equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:enchantments":{"dd_runic:misc/tick":1},"minecraft:item_model":"dd_global:no","minecraft:custom_data":{id:"$(id)",heal:"$(heal)"}}}}}
+$data merge entity @s {Small:1b,Marker:1b,Invisible:1b,equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:enchantments":{"dd_runic:misc/tick":1},"minecraft:item_model":"dd_global:no","minecraft:custom_data":{id:"$(id)"}}}}}
 $execute facing entity @n[tag=dd_runic_vamp_vic] eyes run tp @s ~$(x) ~$(y) ~$(z) facing ^ ^ ^1
