@@ -18,4 +18,3 @@ execute store result storage dd:runic temp.x2 double 0.05 run random value -10..
 execute store result storage dd:runic temp.z2 double 0.05 run random value -10..10
 
 execute positioned ~ ~50 ~ run function dd_runic:daedalus/arrow with storage dd:runic temp
-data remove storage dd:runic temp

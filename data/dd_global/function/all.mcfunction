@@ -1,1 +1,2 @@
 execute if entity @s[type=wither_skeleton,tag=!dd_runic_wither_skeleton_checked] run function dd_runic:entities/skeleton
+execute if entity @s[type=item_display,tag=dd_shriekshot_marker] run function dd_shriekshot:tick
