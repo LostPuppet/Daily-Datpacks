@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:echo_shard"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "dd_shriekshot:shriekshot"
+      ]
+    }
+  }

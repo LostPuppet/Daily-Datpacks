@@ -3,6 +3,7 @@
         "gu:zzz/load",
         "dd_global:load",
         "dd_echosteel:load",
-        "dd_runic:load"
+        "dd_runic:load",
+        "dd_shriekshot:load"
     ]
 }

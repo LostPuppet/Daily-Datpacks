@@ -1,0 +1,2 @@
+execute if predicate {"condition":"minecraft:random_chance","chance":0.9} run scoreboard players add @s dd_temp 1
+execute if score @s dd_temp matches 40.. run function dd_shriekshot:replace with entity @s item.components."minecraft:custom_data"
