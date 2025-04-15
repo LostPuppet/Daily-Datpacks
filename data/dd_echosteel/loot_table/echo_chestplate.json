@@ -45,7 +45,7 @@
                   }
                 ],
                 "minecraft:custom_data": {
-                  "DD": "echosteel"
+                  "dd": "echosteel"
                 },
                 "minecraft:equippable": {
                   "slot": "chest",

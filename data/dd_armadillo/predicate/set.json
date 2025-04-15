@@ -6,28 +6,28 @@
         "head": {
           "components": {
             "minecraft:custom_data": {
-              "dd": "echosteel"
+              "dd": "armadillo"
             }
           }
         },
         "chest": {
           "components": {
             "minecraft:custom_data": {
-              "dd": "echosteel"
+              "dd": "armadillo"
             }
           }
         },
         "legs": {
           "components": {
             "minecraft:custom_data": {
-              "dd": "echosteel"
+              "dd": "armadillo"
             }
           }
         },
         "feet": {
           "components": {
             "minecraft:custom_data": {
-              "dd": "echosteel"
+              "dd": "armadillo"
             }
           }
         }

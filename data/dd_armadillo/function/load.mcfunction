@@ -1,0 +1,1 @@
+scoreboard objectives add dd_armadillo_launch_cd dummy

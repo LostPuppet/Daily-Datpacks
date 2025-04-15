@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:fall_from_height"
+      }
+    },
+    "rewards": {
+      "function": "dd_armadillo:land"
+    }
+  }

@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "type": "minecraft:armor",
+                      "id": "dd_armadillo:head",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "minecraft:armor_toughness",
+                      "id": "dd_armadillo:head",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "type": "minecraft:movement_speed",
+                      "id": "dd_armadillo:head",
+                      "amount": -0.0625,
+                      "operation": "add_multiplied_total",
+                      "slot": "head"
+                    }
+                  ],
+                  "minecraft:item_name": {
+                    "text": "Armadillo Helmet",
+                    "color": "#543408"
+                  },
+                  "minecraft:lore": [
+                    {
+                      "text": "Crouch to enter your shell"
+                    },
+                    {
+                      "text": "Jump while in shell mode to launch yourself"
+                    }
+                  ],
+                  "minecraft:max_damage": 528,
+                  "minecraft:equippable": {
+                    "slot": "head",
+                    "equip_sound": "minecraft:entity.armadillo.brush",
+                    "asset_id": "dd_armadillo:armadillo"
+                  },
+                  "minecraft:item_model": "dd_armadillo:head",
+                  "minecraft:custom_data": {
+                    "dd": "armadillo"
+                  }
+                },
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

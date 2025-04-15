@@ -1,9 +1,11 @@
 {
     "values": [
         "gu:zzz/load",
+        "player_motion:internal/technical/load",
         "dd_global:load",
         "dd_echosteel:load",
         "dd_runic:load",
-        "dd_shriekshot:load"
+        "dd_shriekshot:load",
+        "dd_armadillo:load"
     ]
 }
