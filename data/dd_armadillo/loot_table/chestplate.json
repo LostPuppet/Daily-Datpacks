@@ -52,7 +52,7 @@
                     "equip_sound": "minecraft:entity.armadillo.brush",
                     "asset_id": "dd_armadillo:armadillo"
                   },
-                  "minecraft:item_model": "dd_armadillo:chest",
+                  "minecraft:item_model": "dd_armadillo:armadillo_chestplate",
                   "minecraft:custom_data": {
                     "dd": "armadillo"
                   }
