@@ -29,7 +29,7 @@
                     {
                       "type": "minecraft:movement_speed",
                       "id": "dd_armadillo:legs",
-                      "amount": -0.0625,
+                      "amount": -0.1,
                       "operation": "add_multiplied_total",
                       "slot": "legs"
                     }
@@ -46,7 +46,7 @@
                       "text": "Jump while in shell mode to launch yourself"
                     }
                   ],
-                  "minecraft:max_damage": 528,
+                  "minecraft:max_damage": 371,
                   "minecraft:equippable": {
                     "slot": "legs",
                     "equip_sound": "minecraft:entity.armadillo.brush",
@@ -56,8 +56,7 @@
                   "minecraft:custom_data": {
                     "dd": "armadillo"
                   }
-                },
-                "conditions": []
+                }
               }
             ]
           }

@@ -32,39 +32,4 @@
                   ]
                 }
     }
-  }{
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "pattern": [
-    "ese",
-    " c ",
-    " n "
-  ],
-  "key": {
-    "e": "minecraft:echo_shard",
-    "s": "minecraft:nether_star",
-    "c": "minecraft:crossbow",
-    "n": "minecraft:netherite_ingot"
-  },
-  "result": {
-    "id": "minecraft:crossbow",
-    "components": {
-      "minecraft:item_name": {
-        "text": "Shriekshot",
-        "type": "text",
-        "color": "#162355"
-      },
-      "minecraft:enchantments": {
-        "dd_shriekshot:supersonic": 1
-      },
-      "minecraft:lore": [
-        {
-          "text": "Charge up a release a sonic boom",
-          "type": "text",
-          "color": "#112b55"
-        }
-      ],
-      "minecraft:item_model": "dd_shriekshot:shriekshot"
-    }
   }
-}

@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sas",
+      "s s"
+    ],
+    "key": {
+      "s": "minecraft:armadillo_scute",
+      "a": "minecraft:iron_boots"
+    },
+    "result": {
+      "id": "minecraft:chainmail_boots",
+      "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "dd_armadillo:feet",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "dd_armadillo:feet",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:movement_speed",
+            "id": "dd_armadillo:feet",
+            "amount": -0.1,
+            "operation": "add_multiplied_total",
+            "slot": "feet"
+          }
+        ],
+        "minecraft:item_name": {
+          "text": "Armadillo Boots",
+          "color": "#543408"
+        },
+        "minecraft:lore": [
+          {
+            "text": "Crouch to enter your shell"
+          },
+          {
+            "text": "Jump while in shell mode to launch yourself"
+          }
+        ],
+        "minecraft:max_damage": 321,
+        "minecraft:equippable": {
+          "slot": "feet",
+          "equip_sound": "minecraft:entity.armadillo.brush",
+          "asset_id": "dd_armadillo:armadillo"
+        },
+        "minecraft:item_model": "dd_armadillo:feet",
+        "minecraft:custom_data": {
+          "dd": "armadillo"
+        }
+      }
+    }
+  }

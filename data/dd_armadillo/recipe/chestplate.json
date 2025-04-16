@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sas",
+      "sss",
+      "sss"
+    ],
+    "key": {
+      "s": "minecraft:armadillo_scute",
+      "a": "minecraft:iron_chestplate"
+    },
+    "result": {
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "dd_armadillo:chest",
+            "amount": 9,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "dd_armadillo:chest",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:movement_speed",
+            "id": "dd_armadillo:chest",
+            "amount": -0.1,
+            "operation": "add_multiplied_total",
+            "slot": "chest"
+          }
+        ],
+        "minecraft:item_name": {
+          "text": "Armadillo Chestplate",
+          "color": "#543408"
+        },
+        "minecraft:lore": [
+          {
+            "text": "Crouch to enter your shell"
+          },
+          {
+            "text": "Jump while in shell mode to launch yourself"
+          }
+        ],
+        "minecraft:max_damage": 396,
+        "minecraft:equippable": {
+          "slot": "chest",
+          "equip_sound": "minecraft:entity.armadillo.brush",
+          "asset_id": "dd_armadillo:armadillo"
+        },
+        "minecraft:item_model": "dd_armadillo:chest",
+        "minecraft:custom_data": {
+          "dd": "armadillo"
+        }
+      }
+    }
+  }

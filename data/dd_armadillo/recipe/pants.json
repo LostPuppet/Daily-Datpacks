@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "sss",
+      "sas",
+      "s s"
+    ],
+    "key": {
+      "s": "minecraft:armadillo_scute",
+      "a": "minecraft:iron_leggings"
+    },
+    "result": {
+      "id": "minecraft:chainmail_leggings",
+      "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "dd_armadillo:legs",
+            "amount": 7,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "dd_armadillo:legs",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:movement_speed",
+            "id": "dd_armadillo:legs",
+            "amount": -0.1,
+            "operation": "add_multiplied_total",
+            "slot": "legs"
+          }
+        ],
+        "minecraft:item_name": {
+          "text": "Armadillo Leggings",
+          "color": "#543408"
+        },
+        "minecraft:lore": [
+          {
+            "text": "Crouch to enter your shell"
+          },
+          {
+            "text": "Jump while in shell mode to launch yourself"
+          }
+        ],
+        "minecraft:max_damage": 371,
+        "minecraft:equippable": {
+          "slot": "legs",
+          "equip_sound": "minecraft:entity.armadillo.brush",
+          "asset_id": "dd_armadillo:armadillo"
+        },
+        "minecraft:item_model": "dd_armadillo:legs",
+        "minecraft:custom_data": {
+          "dd": "armadillo"
+        }
+      }
+    }
+  }

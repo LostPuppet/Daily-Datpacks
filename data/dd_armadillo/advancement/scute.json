@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:armadillo_scute"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "dd_armadillo:boots",
+        "dd_armadillo:chestplate",
+        "dd_armadillo:helm",
+        "dd_armadillo:pants"
+      ]
+    }
+  }
